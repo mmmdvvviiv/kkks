@@ -1,6 +1,11 @@
-              ########## - Donwload Lib - #########
-import time , json , string , os , re , random , uuid , subprocess , requests , sys , telebot ; from telebot import types ; from os import system
-              ########## - Starting Code - #########
+import telebot, os
+from telebot import types 
+import os
+import json
+import random 
+import uuid
+import requests
+
 sTo = telebot.TeleBot('7129990147:AAH6-1P_2Kh0QF6h44Q6TGs8_PCXa-6_Tzk')
 @sTo.message_handler(commands=['start'])
 def Start(message):
